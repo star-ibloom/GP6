@@ -1,3 +1,15 @@
 1.创建一个仓库
 git init
 2. 把文件放入仓库之中  git add + 文件名
+	git add -A 全部放入
+
+3. 建立 gitignore 管理不想要的内容
+4. 放入本地仓库 git commit 
+git commit -m "注释"
+这个注释必须有  可以为空
+
+5. 查看本地的代码状态 
+git status  （本地代码和本地仓库代码的区别）
+
+6.查看更改的区别 git diff  ;
+
